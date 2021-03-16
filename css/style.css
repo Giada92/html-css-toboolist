@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: lightgray;
+    background-color: rgb(233, 230, 230);
 }
 
 .bg-white {
@@ -22,10 +22,6 @@ button {
 
 .icona-freccia {
     font-size: 18px;
-}
-
-p {
-    display: inline;
 }
 
 /* Header */
@@ -85,12 +81,9 @@ section {
     margin-top: 20px;
 }
 
-.check {
-    color: green;    
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+li {
+    list-style-type: none;
+    line-height: 35px;
 }
 
 .generale {
@@ -100,19 +93,30 @@ section {
     padding: 5px;
 }
 
-.cross {
-    color: red;
+.circle::before {   
     display: inline-block;
-    width: 20px;
+    width: 15px;
     height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+}
+
+.check::before {
+    content: '\2713';
+    color: green;
+    border: 1px solid green;
+    padding-left: 4px;
+}
+
+.cross::before {
+    content: '\292B';
+    color: red;
+    border: 1px solid red;
+    padding-left: 4px;
 }
 
 .blue {
     background-color:  rgb(89, 182, 240);
-}
-
-.line-height {
-    line-height: 40px;
 }
 
 .violent {
