@@ -20,6 +20,14 @@ button {
     font-size: 12px;
 }
 
+.icona-freccia {
+    font-size: 18px;
+}
+
+p {
+    display: inline;
+}
+
 /* Header */
 header {
     width: 100%;
@@ -37,6 +45,8 @@ nav {
     width: 60%;
     margin: auto;
     margin-top: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .contenitore-nav {
@@ -52,4 +62,75 @@ nav {
 .button-section{
     color: lightslategray;
     border: 1px solid rgb(103, 117, 131);
+}
+
+/* Main */
+main {
+    width: 60%;
+    height: 540px;
+    margin: auto;    
+    margin-top: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.contenitore-section {
+    width: 93%;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Section */
+section {
+    margin-top: 20px;
+}
+
+.check {
+    color: green;    
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.generale {
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.cross {
+    color: red;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.blue {
+    background-color:  rgb(89, 182, 240);
+}
+
+.line-height {
+    line-height: 40px;
+}
+
+.violent {
+    background-color: rgb(153, 22, 153);
+}
+
+.green {
+    background-color: teal;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.light-violent {
+    background-color:  rgb(228, 122, 228);
+}
+
+.light-green {
+    background-color: lightgreen;
 }
